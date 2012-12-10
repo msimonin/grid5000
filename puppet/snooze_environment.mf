@@ -1,0 +1,5 @@
+Package { ensure => "installed" }
+
+$packages = [ "libvirt-bin", "qemu-kvm"]
+
+package { $packages: }
