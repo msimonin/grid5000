@@ -1,0 +1,50 @@
+<domain type='xen'>
+  <name>debian</name>
+  <uuid>080f72ac-15f0-ac3a-f4a6-a9c5913af17f</uuid>
+  <memory>1048576</memory>
+  <currentMemory>1048576</currentMemory>
+  <vcpu>1</vcpu>
+  <os>
+    <type>hvm</type>
+    <loader>/usr/lib/xen-default/boot/hvmloader</loader>
+    <boot dev='hd'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <pae/>
+  </features>
+  <clock offset='utc'>
+    <timer name='hpet' present='no'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>restart</on_crash>
+  <devices>
+    <emulator>/usr/lib/xen-default/bin/qemu-dm</emulator>
+    <disk type='file' device='disk'>
+      <driver name='file'/>
+      <source file='/home/msimonin/xen-images/debian.img'/>
+      <target dev='hda' bus='ide'/>
+    </disk>
+    <disk type='file' device='cdrom'>
+      <target dev='hdc' bus='ide'/>
+      <readonly/>
+    </disk>
+    <interface type='bridge'>
+      <mac address='00:16:c0:a8:7a:02'/>
+      <source bridge='virbr0'/>
+      <script path='vif-bridge'/>
+    </interface>
+    <serial type='pty'>
+      <target port='0'/>
+    </serial>
+    <console type='pty'>
+      <target type='serial' port='0'/>
+    </console>
+    <input type='mouse' bus='ps2'/>
+    <graphics type='vnc' port='-1' autoport='yes' keymap='fr'/>
+    <sound model='es1370'/>
+  </devices>
+</domain>
+

@@ -1,0 +1,4 @@
+sol-1-kavlan-18.sophia.grid5000.fr
+hercule-1-kavlan-18.lyon.grid5000.fr
+taurus-3-kavlan-18.lyon.grid5000.fr
+taurus-4-kavlan-18.lyon.grid5000.fr

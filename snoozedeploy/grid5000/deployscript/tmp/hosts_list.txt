@@ -1,0 +1,10 @@
+paradent-11.rennes.grid5000.fr
+paradent-12.rennes.grid5000.fr
+paradent-13.rennes.grid5000.fr
+paradent-15.rennes.grid5000.fr
+paradent-16.rennes.grid5000.fr
+parapide-10.rennes.grid5000.fr
+parapide-5.rennes.grid5000.fr
+parapide-6.rennes.grid5000.fr
+parapluie-1.rennes.grid5000.fr
+parapluie-10.rennes.grid5000.fr

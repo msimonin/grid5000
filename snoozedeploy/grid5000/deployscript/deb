@@ -1,0 +1,293 @@
+<------------------------------------------->
+[Snooze] Deployment user: msimonin
+[Snooze] Deployment environment: sid-x64-mpi-snooze-rennes.env
+[Snooze] Cluster location: rennes
+[Snooze] Maximum number of deployment rounds: 3
+<------------------------------------------->
+[Snooze] Centralized deployment: false
+[Snooze] Number of bootstrap nodes: 1
+[Snooze] Number of group managers: 3
+[Snooze] Number of local controllers: 6
+[Snooze] Number of subnets: 1
+<------------------------------------------->
+[Snooze] Installing packages on all hosts
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > (Reading database ... 
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > (Reading database ... 
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > (Reading database ... 
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > (Reading database ... 
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > (Reading database ... 
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > 89120 files and directories currently installed.)
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > 89120 files and directories currently installed.)
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > 89120 files and directories currently installed.)
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Unpacking replacement snoozeclient ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > 89120 files and directories currently installed.)
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Unpacking replacement snoozeclient ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Unpacking replacement snoozeclient ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > 89120 files and directories currently installed.)
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Unpacking replacement snoozeclient ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Unpacking replacement snoozeclient ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > (Reading database ... 
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > (Reading database ... 
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > (Reading database ... 
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > (Reading database ... 
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > (Reading database ... 
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > 89120 files and directories currently installed.)
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Unpacking replacement snoozenode ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > 89120 files and directories currently installed.)
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > 89120 files and directories currently installed.)
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > 89120 files and directories currently installed.)
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > 89120 files and directories currently installed.)
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Unpacking replacement snoozeclient ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Preparing to replace snoozeclient 1.0.1-0 (using .../snoozeclient_1.0.1-0_all.deb) ...
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Unpacking replacement snoozenode ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Unpacking replacement snoozeclient ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Unpacking replacement snoozeclient ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Unpacking replacement snoozeclient ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Unpacking replacement snoozeclient ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Unpacking replacement snoozenode ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Unpacking replacement snoozenode ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Unpacking replacement snoozenode ...
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > update-rc.d: using dependency based boot sequencing
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > update-rc.d: using dependency based boot sequencing
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > update-rc.d: using dependency based boot sequencing
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > update-rc.d: using dependency based boot sequencing
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > update-rc.d: using dependency based boot sequencing
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Setting up snoozeclient (1.0.1-0) ...
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > 
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >  ==> Modified (by you or by a script) since installation.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >      Version in package is the same as at last installation.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >  ==> Keeping old config file as default.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Setting up snoozenode (1.0.1-0) ...
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > 
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >  ==> Modified (by you or by a script) since installation.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >      Version in package is the same as at last installation.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error >  ==> Keeping old config file as default.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Setting up snoozeclient (1.0.1-0) ...
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > 
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >  ==> Modified (by you or by a script) since installation.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >      Version in package is the same as at last installation.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >  ==> Keeping old config file as default.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > update-rc.d: using dependency based boot sequencing
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Setting up snoozeclient (1.0.1-0) ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > 
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >  ==> Modified (by you or by a script) since installation.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >      Version in package is the same as at last installation.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >  ==> Keeping old config file as default.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Setting up snoozenode (1.0.1-0) ...
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > 
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >  ==> Modified (by you or by a script) since installation.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >      Version in package is the same as at last installation.
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error >  ==> Keeping old config file as default.
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Setting up snoozeclient (1.0.1-0) ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > 
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >  ==> Modified (by you or by a script) since installation.
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >      Version in package is the same as at last installation.
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >  ==> Keeping old config file as default.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Setting up snoozenode (1.0.1-0) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Setting up snoozeclient (1.0.1-0) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > 
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >  ==> Modified (by you or by a script) since installation.
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >      Version in package is the same as at last installation.
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >  ==> Keeping old config file as default.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > 
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >  ==> Modified (by you or by a script) since installation.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >      Version in package is the same as at last installation.
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error >  ==> Keeping old config file as default.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Setting up snoozenode (1.0.1-0) ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > 
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >  ==> Modified (by you or by a script) since installation.
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >      Version in package is the same as at last installation.
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error >  ==> Keeping old config file as default.
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): output > Processing triggers for man-db ...
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > update-rc.d: using dependency based boot sequencing
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Setting up snoozenode (1.0.1-0) ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > 
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >  ==> Modified (by you or by a script) since installation.
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >      Version in package is the same as at last installation.
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error >  ==> Keeping old config file as default.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Unpacking replacement snoozenode ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Unpacking replacement snoozenode ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Unpacking replacement snoozenode ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > update-rc.d: using dependency based boot sequencing
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > update-rc.d: using dependency based boot sequencing
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > update-rc.d: using dependency based boot sequencing
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): output > Processing triggers for man-db ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Unpacking replacement snoozenode ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Preparing to replace snoozenode 1.0.1-0 (using .../snoozenode_1.0.1-0_all.deb) ...
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): output > Processing triggers for man-db ...
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): output > Processing triggers for man-db ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Unpacking replacement snoozenode ...
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): output > Processing triggers for man-db ...
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: unable to initialize frontend: Dialog
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: falling back to frontend: Readline
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: unable to initialize frontend: Readline
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: (This frontend requires a controlling tty.)
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): error > debconf: falling back to frontend: Teletype
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: unable to initialize frontend: Dialog
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: falling back to frontend: Readline
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: unable to initialize frontend: Readline
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: (This frontend requires a controlling tty.)
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): error > debconf: falling back to frontend: Teletype
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: unable to initialize frontend: Dialog
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: falling back to frontend: Readline
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: unable to initialize frontend: Dialog
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: falling back to frontend: Readline
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: unable to initialize frontend: Readline
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: (This frontend requires a controlling tty.)
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): error > debconf: falling back to frontend: Teletype
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: unable to initialize frontend: Readline
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: (This frontend requires a controlling tty.)
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): error > debconf: falling back to frontend: Teletype
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: unable to initialize frontend: Dialog
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: falling back to frontend: Readline
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: unable to initialize frontend: Readline
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: (This frontend requires a controlling tty.)
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): error > debconf: falling back to frontend: Teletype
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > update-rc.d: using dependency based boot sequencing
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > update-rc.d: using dependency based boot sequencing
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > update-rc.d: using dependency based boot sequencing
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > update-rc.d: using dependency based boot sequencing
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Setting up snoozeclient (1.0.1-0) ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > 
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >  ==> Modified (by you or by a script) since installation.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >      Version in package is the same as at last installation.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >  ==> Keeping old config file as default.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Setting up snoozeclient (1.0.1-0) ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > 
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >  ==> Modified (by you or by a script) since installation.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >      Version in package is the same as at last installation.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >  ==> Keeping old config file as default.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Setting up snoozenode (1.0.1-0) ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > 
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >  ==> Modified (by you or by a script) since installation.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >      Version in package is the same as at last installation.
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error >  ==> Keeping old config file as default.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Setting up snoozenode (1.0.1-0) ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Setting up snoozeclient (1.0.1-0) ...
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > 
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >  ==> Modified (by you or by a script) since installation.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >      Version in package is the same as at last installation.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error >  ==> Keeping old config file as default.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > 
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >  ==> Modified (by you or by a script) since installation.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >      Version in package is the same as at last installation.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >  ==> Keeping old config file as default.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > update-rc.d: using dependency based boot sequencing
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > update-rc.d: using dependency based boot sequencing
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Setting up snoozenode (1.0.1-0) ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > 
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >  ==> Modified (by you or by a script) since installation.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >      Version in package is the same as at last installation.
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error >  ==> Keeping old config file as default.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > update-rc.d: using dependency based boot sequencing
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > update-rc.d: using dependency based boot sequencing
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): output > Processing triggers for man-db ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): output > Processing triggers for man-db ...
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): output > Processing triggers for man-db ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Setting up snoozeclient (1.0.1-0) ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Setting up snoozeclient (1.0.1-0) ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > 
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >  ==> Modified (by you or by a script) since installation.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >      Version in package is the same as at last installation.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >  ==> Keeping old config file as default.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Setting up snoozenode (1.0.1-0) ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > 
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >  ==> Modified (by you or by a script) since installation.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >      Version in package is the same as at last installation.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error >  ==> Keeping old config file as default.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > 
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > Configuration file `/usr/share/snoozeclient/configs/snooze_client.cfg'
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >  ==> Modified (by you or by a script) since installation.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >      Version in package is the same as at last installation.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >  ==> Keeping old config file as default.
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > update-rc.d: using dependency based boot sequencing
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Setting up snoozenode (1.0.1-0) ...
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > 
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > Configuration file `/usr/share/snoozenode/configs/snooze_node.cfg'
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >  ==> Modified (by you or by a script) since installation.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >      Version in package is the same as at last installation.
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error >  ==> Keeping old config file as default.
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: unable to initialize frontend: Dialog
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: falling back to frontend: Readline
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: unable to initialize frontend: Dialog
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: falling back to frontend: Readline
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > update-rc.d: using dependency based boot sequencing
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: unable to initialize frontend: Readline
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: (This frontend requires a controlling tty.)
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): error > debconf: falling back to frontend: Teletype
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): output > Processing triggers for man-db ...
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: unable to initialize frontend: Readline
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: (This frontend requires a controlling tty.)
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): error > debconf: falling back to frontend: Teletype
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: unable to initialize frontend: Dialog
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: falling back to frontend: Readline
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: unable to initialize frontend: Readline
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: (This frontend requires a controlling tty.)
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): error > debconf: falling back to frontend: Teletype
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): output > Processing triggers for man-db ...
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: unable to initialize frontend: Dialog
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: falling back to frontend: Readline
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: unable to initialize frontend: Readline
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: (This frontend requires a controlling tty.)
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): error > debconf: falling back to frontend: Teletype
+parapide-23.rennes.grid5000.fr-9: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3629): status > Exited with status 0
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: unable to initialize frontend: Dialog
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: (TERM is not set, so the dialog frontend is not usable.)
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: falling back to frontend: Readline
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: unable to initialize frontend: Readline
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: (This frontend requires a controlling tty.)
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): error > debconf: falling back to frontend: Teletype
+parapide-11.rennes.grid5000.fr-8: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3595): status > Exited with status 0
+parapide-24.rennes.grid5000.fr-10: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3601): status > Exited with status 0
+parapide-10.rennes.grid5000.fr-7: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3611): status > Exited with status 0
+parapide-1.rennes.grid5000.fr-6: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3613): status > Exited with status 0
+paradent-50.rennes.grid5000.fr-5: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3293): status > Exited with status 0
+paradent-26.rennes.grid5000.fr-3: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3330): status > Exited with status 0
+paradent-23.rennes.grid5000.fr-1: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3405): status > Exited with status 0
+paradent-24.rennes.grid5000.fr-2: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3314): status > Exited with status 0
+paradent-43.rennes.grid5000.fr-4: dpkg -i --force-all -R /home/msimonin/snoozedeploy/grid5000/deployscript/deb_packages (3322): status > Exited with status 0
