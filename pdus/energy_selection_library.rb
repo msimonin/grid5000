@@ -10,10 +10,15 @@ Restfully::Session.new(
 
   pdus_nodes = select_pdus_nodes(root)
 	puts "nodes with non shared pdu : #{pdus_nodes.size()}"
-	puts "trying to reserve a free node"
+  pdus_nodes.each do |node|
+     puts node['uid']  
+  end
+	puts "nodes with non shared pdu : #{pdus_nodes}"
+    
+#	puts "trying to reserve a free node"
   
-	node = select_nodes(pdus_nodes)
+#	node = select_nodes(pdus_nodes)
 
-	reserve_nodes(node)
+#	reserve_nodes(node)
 	
 end

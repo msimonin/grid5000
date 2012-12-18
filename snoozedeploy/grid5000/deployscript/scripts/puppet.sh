@@ -21,6 +21,7 @@ install_puppet () {
     echo "$log_tag installing puppet"
     run_taktuk "$tmp_directory/hosts_list.txt" exec "[ apt-get update ]"   
     run_taktuk "$tmp_directory/hosts_list.txt" exec "[ apt-get install -y puppet ]"   
+    run_taktuk "$tmp_directory/hosts_list.txt" exec "[ rm -rf $remote_puppet_base ]"
     run_taktuk "$tmp_directory/hosts_list.txt" exec "[ mkdir -p $remote_puppet_base ]" 
 }
 

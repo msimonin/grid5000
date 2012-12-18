@@ -166,9 +166,17 @@ get_first_bootstrap_address() {
     echo $first_bootstrap_address
 }
 
+save_virtual_machine_subnet ()
+{
+    local virtual_machine_subnet=$(g5k-subnets -j $1 -a | awk '{print $1}' | sed 's/\//\\\//g' | head -n1)    
+    echo $virtual_machine_subnet > $tmp_directory/subnet.txt
+    echo $virtual_machine_subnet
+
+}
 # Returns the subnets of a job
 get_virtual_machine_subnet () 
 {
-    local virtual_machine_subnet=$(g5k-subnets -j $1 -a | awk '{print $1}' | sed 's/\//\\\//g' | head -n1)    
-    echo $virtual_machine_subnet
+    #local virtual_machine_subnet=$(g5k-subnets -j $1 -a | awk '{print $1}' | sed 's/\//\\\//g' | head -n1)    
+    #echo $virtual_machine_subnet
+    cat $tmp_directory/subnet.txt 
 }

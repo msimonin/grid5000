@@ -57,14 +57,14 @@ images_location="$snooze_tmp_directory/images"
 templates_location="$snooze_tmp_directory/templates"
 
 ## Template name
-template_name="debian_xen.xml"
-template_prefix="debian_xen_"
+template_name="debian_kvm.xml"
+template_prefix="debian_kvm_"
 
 ## Image names
-backing_file_distribution="squeeze"
-backing_file_application="mapreduce"
+backing_file_distribution="testing"
+backing_file_application="web"
 backing_file_cluster_location="rennes"
-backing_file_type="qcow2"
+backing_file_type="raw"
 backing_file_name="$backing_file_distribution-$backing_file_application-vm-snooze-$backing_file_cluster_location.$backing_file_type"
 copy_on_write_file_prefix="$backing_file_distribution-$backing_file_application-vm-snooze-$backing_file_cluster_location-cow-"
 
@@ -73,7 +73,7 @@ current_memory="512000"
 number_of_virtual_cpus="1"
 
 # Networking settings
-bridge_name="virbr0"
+bridge_name="br100"
 
 ########### Benchmark related settings #############
 # Temporary directory

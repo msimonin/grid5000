@@ -34,7 +34,3 @@ remove_packages(){
    run_taktuk "$tmp_directory/hosts_list.txt" exec "[ dpkg --purge snoozenode snoozeclient ]"
 }
 
-copy_and_install_packages() {
-   copy_packages()
-   install_packages()
-}

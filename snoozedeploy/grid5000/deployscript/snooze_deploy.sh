@@ -34,6 +34,7 @@ source $scriptpath/scripts/taktuk.sh
 source $scriptpath/scripts/failures.sh
 source $scriptpath/scripts/dynamic_node_addition.sh
 source $scriptpath/scripts/puppet.sh
+source $scriptpath/scripts/keys.sh
 
 # Prints the usage information
 print_usage () {
@@ -41,8 +42,9 @@ print_usage () {
     echo "Contact: $author"
     echo "Options:"
     echo "-a                        Autoconfig"
-    echo "-v                        Deploy image using vlan"
-    echo "-g                        Deploy image using no vlan"
+    echo "-d                        Deploy image using vlan"
+    echo "-n                        Deploy image using no vlan"
+    echo "-h		            Deploy keys and connect to the service node"
     echo "-i                        Install/Update packages"
     echo "-c                        Configure packages"
     echo "-n                        Configure network"
@@ -56,7 +58,7 @@ print_usage () {
     echo "-k                        Stop cluster"
     echo "-o [amount] [interval]    Dynamically adds group managers"
     echo "-x [amount] [interval]    Dynamically adds local controllers"
-    echo "-v [hostnames]            Simulate group manager failures"
+    echo "-z [hostnames]            Simulate group manager failures"
 }
 
 # Starts autoconfiguration
@@ -118,7 +120,7 @@ autoconfig () {
 
 # Process the user input
 option_found=0
-while getopts ":repadicnftelsko:x:v:" opt; do
+while getopts ":rehpadicnftelsko:x:v:" opt; do
     option_found=1
     print_settings
 
@@ -127,12 +129,16 @@ while getopts ":repadicnftelsko:x:v:" opt; do
             autoconfig
             return_value=$?
             ;;
-        v)
+        d)n
             deploy_image_vlan
             return_value=$?
             ;;
-        g) 
-            deploy_image_no_vlan
+        h) 
+            copy_and_deploy_keys
+            return_value=$?
+            ;;
+        n) 
+            copy_and_deploy_keys
             return_value=$?
             ;;
             
@@ -194,7 +200,7 @@ while getopts ":repadicnftelsko:x:v:" opt; do
             shift 2
             add_local_controllers $number_of_local_controllers $interval
             ;;
-        v)
+        z)
             simulate_group_manager_failures $OPTARG
             return_value=$?
             ;;

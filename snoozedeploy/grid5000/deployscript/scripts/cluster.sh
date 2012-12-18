@@ -56,6 +56,6 @@ stop_cluster () {
      put_taktuk "$tmp_directory/group_managers.txt" "$local_scripts_directory/stop_groupmanager.sh" "$remote_scripts_directory/stop_groupmanager.sh"
      run_taktuk "$tmp_directory/group_managers.txt" exec "[ $remote_scripts_directory/stop_groupmanager.sh ]"
 
-     put_taktuk "$tmp_directory/bootstrap_nodes.txt" "$local_scripts_directory/stop_localcontroller.sh" "$remote_scripts_directory/stop_localcontroller.sh"
+     put_taktuk "$tmp_directory/local_controllers.txt" "$local_scripts_directory/stop_localcontroller.sh" "$remote_scripts_directory/stop_localcontroller.sh"
      run_taktuk "$tmp_directory/local_controllers.txt" exec "[ $remote_scripts_directory/stop_localcontroller.sh ]"
 }

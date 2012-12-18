@@ -28,7 +28,7 @@ deploy_image_vlan () {
         return $error_code
     fi
     
-    local virtual_machine_subnet=$(get_virtual_machine_subnet $job_id)
+    local virtual_machine_subnet=$(save_virtual_machine_subnet $job_id)
     if [ -z "$virtual_machine_subnet" ];
     then
         echo "$log_tag You must have a reservation with a subnet reserved!"
@@ -59,7 +59,7 @@ deploy_image_no_vlan () {
         return $error_code
     fi
 
-    local virtual_machine_subnet=$(get_virtual_machine_subnet $job_id)
+    local virtual_machine_subnet=$(save_virtual_machine_subnet $job_id)
     if [ -z "$virtual_machine_subnet" ];
     then
         echo "$log_tag You must have a reservation with a subnet reserved!"
@@ -67,7 +67,8 @@ deploy_image_no_vlan () {
     fi
 
     create_hosts_list_no_vlan $job_id
-    $katapult_command -a $environment_location/$environment_name -f $tmp_directory/hosts_list.txt -l $USER --max-deploy-runs $max_deploy_runs --min-deployed-nodes $(get_total_cluster_size)
+    #$katapult_command -a $environment_location/$environment_name -f $tmp_directory/hosts_list.txt -l $USER --max-deploy-runs $max_deploy_runs --min-deployed-nodes $(get_total_cluster_size)
+    $katapult_command -e ubuntu-x64-br -l sbadia -f $tmp_directory/hosts_list.txt --max-deploy-runs $max_deploy_runs --min-deployed-nodes $(get_total_cluster_size)
     if [[ $? -ne $success_code ]]
     then
         echo "$log_tag Did you connect to your job?!"

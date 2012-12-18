@@ -293,6 +293,7 @@ if $cfg.deploy_env || $cfg.envfile
   while runs < $cfg.max_deploy_runs and $nodes.length < $cfg.min_deployed_nodes
     runs += 1
     puts "### [#{showtime}] Kadeploy run #{runs} with #{needdeploy.length} nodes (#{$nodes.length} already deployed, need #{$cfg.min_deployed_nodes - $nodes.length} more)"
+    puts "kadeploy3 -k #{ $cfg.envfile.nil? ? "-e #{$cfg.deploy_env}" : "-a #{$cfg.envfile}"} #{kadev} #{katmp} #{kauser} -n #{fkonodes} -o #{foknodes} -m #{needdeploy.join(' -m ')}"
     system("kadeploy3 -k #{ $cfg.envfile.nil? ? "-e #{$cfg.deploy_env}" : "-a #{$cfg.envfile}"} #{kadev} #{katmp} #{kauser} -n #{fkonodes} -o #{foknodes} -m #{needdeploy.join(' -m ')} 2>&1")
     puts "[#{showtime}] Kadeploy finished."
     puts "Content of oknodes file:"

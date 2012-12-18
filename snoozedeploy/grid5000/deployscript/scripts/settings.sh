@@ -43,6 +43,7 @@ katapult_command="$deploy_script_directory/katapult/katapult3"
 
 # SSH settings
 ssh_private_key="$HOME/.ssh/id_rsa"
+
 ssh_command="ssh -o PasswordAuthentication=no -o StrictHostKeyChecking=no -i $ssh_private_key"
 
 # RSYNC settings
@@ -96,7 +97,7 @@ environment_name="sid-x64-mpi-snooze-$cluster_location.env"
 # Cluster settings 
 centralized_deployment=false
 number_of_bootstrap_nodes=1
-number_of_group_managers=2
+number_of_group_managers=3
 number_of_local_controllers=2
 number_of_subnets=1
 

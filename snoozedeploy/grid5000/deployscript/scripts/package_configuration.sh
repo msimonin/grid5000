@@ -84,6 +84,7 @@ create_centralized_init_scripts () {
 create_and_deploy_kapower_configuration () {
     echo "$log_tag Creating and deploying kapower3 configuration"
     create_kapower3_configuration
+    echo "$log_tag Preparing to deploy kapower3 configuration"
     deploy_kapower3_configuration
 }
 
@@ -220,7 +221,8 @@ create_local_controller_configuration () {
 
 # Deploys the kapower3 configuration files
 deploy_kapower3_configuration () {
-    run_taktuk "$tmp_directory/hosts_list.txt" put "[ $tmp_directory/$kapower_config_name ] [ /etc/kadeploy3/$kapower_config_name ]"
+     echo "$log_tag  kapower config name = $tmp_directory/$kapower_config_name"
+     run_taktuk "$tmp_directory/hosts_list.txt" put "[ $tmp_directory/$kapower_config_name ] [ /etc/kadeploy3/$kapower_config_name ]"
 }
 
 # Deploys the client configurations

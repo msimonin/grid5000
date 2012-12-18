@@ -6,7 +6,7 @@ def select_nodes(nodes)
      status=node.status(:query => { :reservations_limit => '5'})
      if status["system_state"] == "free"
        if status["reservations"].size > 0
-         if Time.at(status["reservations"][0]["start_time"])-Time.now>= 1200
+         if Time.at(status["reservations"][0]["start_time"])-Time.now>= 3600
            puts "#{node["uid"]} free (until #{Time.at(status["reservations"][0]["start_time"])})"
            selected = node
            break
@@ -20,14 +20,13 @@ def select_nodes(nodes)
 end
 
 def reserve_nodes(nodes)
- # reserve one node for 20 min
- if (nodes != nil)  then
-    puts "reservation of #{nodes["uid"]}"
-    nodes.parent.parent.jobs.submit(
-                                   :resources  => "walltime=0:20:00",
+    if (nodes != nil)  then
+      puts "reservation of #{nodes["uid"]}"
+      nodes.parent.parent.jobs.submit(
+                                   :resources  => "walltime=0:59:00",
                                    :command   => "sleep 3600",
                                    :properties=> "host like '"+nodes["uid"]+".%'",
                                    :name      => "test_pdu"
-           )
+     )
   end
 end
