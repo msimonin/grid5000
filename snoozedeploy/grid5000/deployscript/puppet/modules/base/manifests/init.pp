@@ -12,10 +12,11 @@
       file { 'idmapd.conf':
         path    => '/etc/idmapd.conf',
         ensure  => file,
-        owner   => root,
-        group   => root,
-        require => [Package['nfs-common'],Exec['apt-update']],
-        source  => "puppet:///modules/base/idmapd.conf",
+        owner   => "root",
+        group   => "root",
+        mode  => '0644',
+        require => [Package['nfs-common']],
+        source  => "puppet:///modules/base/etc/idmapd.conf",
       }
 
       package { 'nfs-kernel-server':
@@ -60,19 +61,21 @@
       file { 'libvirtd.conf':
         path    => '/etc/libvirt/libvirtd.conf',
         ensure  => file,
-        owner   => root,
-        group   => root,
+        owner   => "root",
+        group   => "root",
+        mode  => '0644',
         require => Package['libvirt-bin'],
-        source  => "puppet:///modules/base/libvirtd.conf",
+        source  => "puppet:///modules/base/etc/libvirtd.conf",
       }
 
       file { 'libvirt-bin':
         path   => '/etc/default/libvirt-bin',
         ensure  => file,
-        owner   => root,
-        group   => root,
+        owner   => "root",
+        group   => "root",
+        mode  => '0644',
         require => Package['libvirt-bin'],
-        source  => "puppet:///modules/base/libvirt-bin",
+        source  => "puppet:///modules/base/etc/libvirt-bin",
       }
 
 
@@ -83,5 +86,32 @@
       package { 'zookeeperd':
         ensure => 'installed'
       }
-      
+
+    package {'kadeploy-common':
+        provider => dpkg,
+        ensure => installed,
+        source  => "/root/puppet/modules/base/files/kadeploy-common-3.1.5.3.deb",
+        before => Exec['apt-fix']
     }
+
+      package {'kadeploy-client':
+         provider => dpkg,
+         ensure => installed,
+         source  => "/root/puppet/modules/base/files/kadeploy-client-3.1.5.3.deb",
+         before => Exec['apt-fix']
+    }
+    exec { 'apt-fix':
+        command => "/usr/bin/apt-get -f -y install"
+    }
+
+
+    file { 'client_conf.yml':
+        path    => '/etc/kadeploy3/client_conf.yml',
+        ensure  => file,
+        owner => 'root',
+        group => 'root',
+        mode  => '0644',
+        require => Package['kadeploy-client'],
+        source  => "puppet:///modules/base/client_conf.yml",
+      }
+}  
