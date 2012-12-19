@@ -129,15 +129,15 @@ while getopts ":rehpadicnftelsko:x:v:" opt; do
             autoconfig
             return_value=$?
             ;;
-        d)n
+        d)
             deploy_image_vlan
             return_value=$?
             ;;
-        h) 
-            copy_and_deploy_keys
+        n) 
+            deploy_image_no_vlan
             return_value=$?
             ;;
-        n) 
+        h) 
             copy_and_deploy_keys
             return_value=$?
             ;;
