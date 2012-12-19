@@ -27,6 +27,6 @@ install_puppet () {
 
 puppet_base_configuration(){
     echo "$log_tag installing base config using puppet"
-    put_taktuk "$tmp_directory/hosts_list.txt" "$local_puppet_base/modules" "$remote_puppet_base/modules"
-    run_taktuk "$tmp_directory/hosts_list.txt" exec "[ puppet apply --modulepath=$remote_puppet_base/modules -e \"include base\" ]" 
+    put_taktuk "$tmp_directory/hosts_list.txt" "$local_puppet_base" "/root"
+    run_taktuk "$tmp_directory/hosts_list.txt" exec "[ puppet apply --modulepath=$remote_puppet_base/modules $remote_puppet_base/manifests/site.pp  ]" 
 }
