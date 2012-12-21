@@ -1,2 +1,1 @@
-snoozeadmin ALL=(ALL) NOPASSWD:/usr/sbin/shutdown
-
+snoozeadmin ALL=(ALL) NOPASSWD:/sbin/shutdown
