@@ -34,7 +34,7 @@ source $scriptpath/scripts/taktuk.sh
 source $scriptpath/scripts/failures.sh
 source $scriptpath/scripts/dynamic_node_addition.sh
 source $scriptpath/scripts/puppet.sh
-source $scriptpath/scripts/keys.sh
+source $scriptpath/scripts/prepare_service_node.sh
 
 # Prints the usage information
 print_usage () {
@@ -44,7 +44,7 @@ print_usage () {
     echo "-a                        Autoconfig"
     echo "-d                        Deploy image using vlan"
     echo "-n                        Deploy image using no vlan"
-    echo "-h		            Deploy keys and connect to the service node"
+    echo "-h		            Preparing the service node"
     echo "-i                        Install/Update packages"
     echo "-c                        Configure packages"
     echo "-n                        Configure network"
@@ -138,7 +138,7 @@ while getopts ":rehpadicnftelsko:x:v:" opt; do
             return_value=$?
             ;;
         h) 
-            copy_and_deploy_keys
+            prepare_service_node
             return_value=$?
             ;;
             
