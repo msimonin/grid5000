@@ -53,6 +53,6 @@ class kadeploy3 {
     group => 'root',
     mode  => '0644',
     require => Package['kadeploy-client'],
-    source  => "puppet:///modules/kadeploy3/etc/kadeploy3/client_conf.yml",
+    content => template('kadeploy3/client_conf.erb')
    }
 }
