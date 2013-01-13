@@ -26,5 +26,11 @@ class nfs {
     enable    => true,
     subscribe => File['idmapd.conf'],
   }
+ 
+  service { 'idmapd':
+    ensure => running,
+    subscribe => File['idmapd.conf'],
+    enable => true
+  }
 
 }

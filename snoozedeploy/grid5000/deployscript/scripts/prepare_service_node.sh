@@ -73,7 +73,7 @@ copy_and_deploy_keys()
 }
 
 install_taktuk(){
- "$log_tag Installing packages on all hosts"
+ echo "$log_tag Installing packages on all hosts"
  run_taktuk "$tmp_directory/service_node.txt" exec "[ apt-get install -y taktuk ]"
 }
 

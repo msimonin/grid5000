@@ -2,6 +2,7 @@
 node default {
 
   Class['libvirt'] -> Class['snoozesetup']
+  Class['snoozesetup'] -> Class['nfs']
 
   include apt
   include libvirt
